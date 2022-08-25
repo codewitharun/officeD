@@ -27,7 +27,7 @@ class HeaderMenu extends Component{
 			// 	</ul>
 			// </>
 			<nav className="nav navbar-nav">
-				<FloatingWhatsApp phone />
+				<FloatingWhatsApp phone='918052055746' />
 			<NavLink
 			  exact
 			  activeClassName="navbar__link--active"

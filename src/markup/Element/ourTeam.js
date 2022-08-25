@@ -5,18 +5,23 @@ import SimpleReactLightbox from 'simple-react-lightbox';
 import {SRLWrapper, useLightbox} from 'simple-react-lightbox';
 
 //Images
-import pic1 from './../../images/project/pic1.jpg';
-import pic2 from './../../images/project/pic2.jpg';
-import pic3 from './../../images/project/pic3.jpg';
-import pic4 from './../../images/project/pic4.jpg';
-import pic5 from './../../images/project/pic5.jpg';
-
+// import pic1 from './../../images/project/pic1.jpg';
+// import pic2 from './../../images/project/pic2.jpg';
+// import pic3 from './../../images/project/pic3.jpg';
+// import pic4 from './../../images/project/pic4.jpg';
+// import pic5 from './../../images/project/pic5.jpg';
+import pinki from './../../images/our-team/Pinki.jpg'
+import arun from './../../images/our-team/Arun.jpg'
+import priyanka from './../../images/our-team/pinku.jpg'
+import azeema from './../../images/our-team/azima.jpg'
+import dileep from './../../images/our-team/dilipsir.jpg'
 const contentBlog =[
-	{images: pic1, tech: "Shopify", site: "https://charlotte-stone.com/", name: "Charlotte Stone"},
-	{images: pic2, tech: "JavaScript", site: "https://grumpyturtlecreative.com/ ", name: "Grumpyturtle Creative" },
-	{images: pic3, tech: "Shopify", site: "https://www.hipoptical.com/", name: "Hipoptical" },
-	{images: pic4, tech: "WordPress", site: "https://www.homeclearance.com.au/", name: "Home Clearance" },
-	{images: pic5, tech: "Shopify", site: "https://cdk9raw.com.au/ ", name: "Cdk9 Raw" },
+	{images: dileep, tech: "Ceo&Founder", site: "https://www.linkedin.com/in/dileep-chauhan-5a87a3147/", name: "Dileep Chauhan"},
+	{images: priyanka, tech: "Php/Wordpress Developer", site: "https://www.linkedin.com/in/priyanka-saini-563204193", name: "Priyanka Saini" },
+	{images: arun, tech: "React native Developer", site: "https://www.devarun.site", name: "Arun Kumar" },
+	{images: pinki, tech: "Junior BDE ", site: "https://www.homeclearance.com.au/", name: "Pinki Yadav" },
+	// {images: jaswant, tech: "Django Developer", site: "https://cdk9raw.com.au/ ", name: "Jaswant Kumar" },
+    {images: azeema, tech: "Sales Manager ", site: "https://www.linkedin.com/in/aazeemah-farooq-11751086", name: "Aazeema Farooq" },
 		
 ]
 //Light Gallery on icon click 
@@ -30,14 +35,14 @@ const Iconimage = props => {
 }
 
 
-class PortfolioCarousel extends Component{
+class Ourteam extends Component{
 	render(){
 		var settings = {		
 			arrows: false,
             slidesToShow: 4,	
 			speed: 3000,
 			navSpeed: 3000,	
-            infinite: true,
+            infinite:false,
 			autoplay: true,
 			responsive: [
 				{
@@ -101,4 +106,4 @@ class PortfolioCarousel extends Component{
 	
 }
 
-export default PortfolioCarousel;
+export default Ourteam;

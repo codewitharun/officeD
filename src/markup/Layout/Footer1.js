@@ -25,7 +25,7 @@ class Footer1 extends Component {
                                     <div className="widget widget_services border-0">
                                         <h5 className="m-b30 text-white">Useful Link</h5>
                                         <ul>
-                                            <li><Link to={"#"}>Create Account</Link></li>
+                                            {/* <li><Link to={"#"}>Create Account</Link></li> */}
                                             <li><Link to={"#"}>Company Philosophy </Link></li>
                                             <li><Link to={"#"}>Latest News</Link></li>
                                             <li><Link to={"#"}>Privacy Policy</Link></li>

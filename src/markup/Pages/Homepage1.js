@@ -15,6 +15,7 @@ import pic4 from './../../images/about/pic4.jpg';
 import bgimg from './../../images/background/bg1.jpg';
 import bgimg2 from './../../images/background/bg-map.jpg';
 import bgimg3 from './../../images/background/bg1.jpg';
+import Ourteam from '../Element/ourTeam';
 
 
 class Homepage extends Component{
@@ -98,6 +99,22 @@ It is our main goal to make your web design experience enjoyable.</p></p>
                             </div>
 						</div>	
 						{/* <!-- Why Chose Us End --> */}
+{/* Portfolio section Starts here */}
+<div className="section-full content-inner-1 mfp-gallery">
+                            <div className="container-fluid">
+                                <div className="section-head text-center">
+                                    <h4 className="text-gray-dark m-b10">Our Team</h4>
+                                    
+                                    <h5> Emphasing the importance of technology in bussiness to new bussiness owners, especially for small and medium size bussiness owners.    </h5>
+                                </div>
+                                    {/* <PortfolioCarousel /> */}
+                                    <Ourteam />
+                            </div>
+                        </div>
+
+{/* Portfolio section ends here */}
+
+                         
 						{/* <!-- Our Portfolio --> */}
                         <div className="section-full content-inner-1 mfp-gallery">
                             <div className="container-fluid">
