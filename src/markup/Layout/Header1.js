@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import logo from './../../images/logo.png';
+import logo from './../../images/logoNew.png';
 import logo2 from './../../images/logo-black.png';
 import HeaderMenu from './HeaderMenu';
 
