@@ -2,7 +2,7 @@ import React, {Component,Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import SimpleReactLightbox from 'simple-react-lightbox';
 import {SRLWrapper, useLightbox} from 'simple-react-lightbox'; 
-import Header from './../../Layout/Header1';
+import Header from '../../Layout/Header';
 import Footer from './../../Layout/Footer1';
 import PageTitle from './../../Layout/PageTitle';
 

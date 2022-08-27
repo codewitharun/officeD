@@ -2,19 +2,14 @@ import React, {Component} from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ThemeButton from './Element/ThemeButton/ThemeButton';
 
-import Homepage from './Pages/Homepage1';
-import Index2 from './Pages/Index2';
-import Index3 from './Pages/Index3';
-import Index4 from './Pages/Index4';
-import Index5 from './Pages/Index5';
-import Index6 from './Pages/Index6';
-import Index7 from './Pages/Index7';
-import Aboutus1 from './Pages/Aboutus/Aboutus1';
+import Homepage from './Pages/Homepage';
+
+import Aboutus from './Pages/Aboutus/Aboutus';
 import Aboutus2 from './Pages/Aboutus/Aboutus2';
 import Error403 from './Pages/Error/Error403';
 import Error404 from './Pages/Error/Error404';
 import Error405 from './Pages/Error/Error405';
-import ComingSoon1 from './Pages/ComingSoon/ComingSoon1';
+import ComingSoon from './Pages/ComingSoon/ComingSoon1';
 import UnderMaintenance from './Pages/UnderMaintenance';
 import Expertise from './Pages/Expertise';
 import ProjectManagement from './Pages/ProjectManagement';
@@ -70,9 +65,9 @@ class Markup extends Component{
                     <Switch>
                         <Route path='/' exact component={Homepage} />
                       
-                        <Route path='/about' exact component={Aboutus1} />
+                        <Route path='/about' exact component={Aboutus} />
                         
-                        <Route path='/coming-soon-1' exact component={ComingSoon1} />
+                        {/* <Route path='/coming-soon-1' exact component={ComingSoon} /> */}
                         <Route path='/under-maintenance' exact component={UnderMaintenance} />
                         <Route path='/expertise' exact component={Expertise} />
                         <Route path='/project-management' exact component={ProjectManagement} />

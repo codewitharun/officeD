@@ -18,7 +18,7 @@ class FormStyle extends Component{
 							</ul>
 						</div>
 						<div className="col-lg-7 col-md-7 m-b30">
-							<form className="inquiry-form  dzForm"  action="script/contact.php">
+							{/* <form className="inquiry-form  dzForm"  action="script/contact.php">
 								<div className="dzFormMsg"></div>
 								<h3 className="box-title m-t0 m-b10">Let's grow your business <span className="bg-primary"></span></h3>
 								<p>With our team, you will have a website that is state of the art and will serve all your needs for years to come.
@@ -84,7 +84,30 @@ class FormStyle extends Component{
 										<button name="submit" type="submit" value="Submit" className="site-button button-lg"> <span>Get A Free Quote!</span> </button>
 									</div>
 								</div>
-							</form>
+							</form> */}
+							            <form action="https://public.herotofu.com/v1/dcc37e90-250f-11ed-9dc3-136bfcd2b0ee" method="post" className="inquiry-form dzForm" target='_blank'>
+ 
+ <div className="dzFormMsg"></div>
+	 <h3 className="box-title m-t0 m-b10">Let's grow your business <span className="bg-primary"></span></h3>
+	 <p>With our team, you will have a website that is state of the art and will serve all your needs for years to come.</p>
+	 <div className="col-lg-12">
+	 <div className="input-group">
+					
+					 <label for="name"  >Your Name</label>
+<input name="Name" id="name" type="text"  required className="form-control ti-user text-warning input-group-addon"/>
+				 </div>
+				 </div>
+
+				 <div className="col-lg-12">
+	 <div className="input-group">
+<label for="email">Your Email</label>
+<input name="Email" id="email" type="email" required  className="form-control ti-user text-warning input-group-addon" />
+</div>
+</div>
+<div className="col-lg-12">
+<input type="submit" value=" Get A Free Quote!"  className="site-button button-lg" />
+</div>
+</form>
 						</div>
 					</div>
 				</div>

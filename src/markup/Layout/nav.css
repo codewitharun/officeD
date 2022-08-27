@@ -7,7 +7,7 @@
   }
   
   .navbar__link {
-    margin: 1em;
+    margin: 3em;
     /* font-size: 2em; */
     /* font-family: 'Roboto', sans-serif; */
     font-weight:600;
@@ -15,16 +15,16 @@
     text-decoration: none;
     letter-spacing: .1em;
     text-indent: .3em;
-    color: #fff9f9;
+    color: #000000;
     border-bottom: 3px solid transparent;
   }
   
   .navbar__link:hover {
     transform: translateY(-2px);
-    color: #29f633;
+    color: orangered;
   }
   
   .navbar__link--active {
-    border-bottom: 3px solid #29f633;
+    border-bottom: 3px solid rgb(255, 104, 3);
     transition: border-bottom .5s ease-in-out;
   }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from './../../Layout/Header1';
+import Header from '../../Layout/Header';
 import Footer from './../../Layout/Footer1';
 import PageTitle from './../../Layout/PageTitle';
 import HomeTab from './../../Element/HomeTab';

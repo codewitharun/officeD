@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Header from './../Layout/Header1';
+import Header from '../Layout/Header';
 import Footer from './../Layout/Footer1';
 import PageTitle from './../Layout/PageTitle';
-import {VisionBlog} from './Aboutus/Aboutus1';
+import {VisionBlog} from './Aboutus/Aboutus';
 
 import bnr from './../../images/banner/bnr3.jpg';
 import pic1 from './../../images/our-team/pic1.jpg';

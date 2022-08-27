@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Masonry from 'react-masonry-component';
-import Header from './../../Layout/Header1';
+import Header from '../../Layout/Header';
 import Footer from './../../Layout/Footer1';
 import PageTitle from './../../Layout/PageTitle';
 

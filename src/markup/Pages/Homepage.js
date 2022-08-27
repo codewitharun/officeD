@@ -1,15 +1,16 @@
 import React,{Component} from 'react';
-import Header from './../Layout/Header1';
-import Footer from './../Layout/Footer1';
-import HomeOwlSlider from './../Element/HomeOwlSlider';
-import HomeOwlSlider2 from './../Element/HomeOwlSlider2';
-import ImgCarouselContent from './../Element/ImgCarouselContent';
-import HomeTab from './../Element/HomeTab';
-import Counter from './../Element/Counter';
-import PortfolioCarousel from './../Element/PortfolioCarousel';
-import TestimonialCarousel from './../Element/TestimonialCarousel';
-import FormStyle from './../Element/FormStyle';
-
+import Header from '../Layout/Header';
+import Footer from '../Layout/Footer1';
+import HomeOwlSlider from '../Element/HomeOwlSlider';
+import HomeOwlSlider2 from '../Element/HomeOwlSlider2';
+import ImgCarouselContent from '../Element/ImgCarouselContent';
+import HomeTab from '../Element/HomeTab';
+import Counter from '../Element/Counter';
+import PortfolioCarousel from '../Element/PortfolioCarousel';
+import TestimonialCarousel from '../Element/TestimonialCarousel';
+import FormStyle from '../Element/FormStyle';
+// import  onplayVideo from '../Layout/HomepageVideo'
+import video from "../../images/video/DummyVideo.mp4"
 //Images
 import pic4 from './../../images/about/pic4.jpg';
 import bgimg from './../../images/background/bg1.jpg';
@@ -91,8 +92,11 @@ It is our main goal to make your web design experience enjoyable.</p></p>
                                 <div className="section-head text-white text-center">
                                     <h2 className="box-title m-tb0">Why Chose Us<span className="bg-primary"></span></h2>
                                     <p>The reason why you should choose our company for your website and mobile apps project is that we work in conjunction with international brands and have experience from over 1000 successful projects. All our clients have been satisfied with our quality of work. All of our projects will be executed in a professional way and according to the estimation you give us. We are confident about our work and that is why we keep the best results for all our clients.</p>
+                                    <video autoPlay src={video} width="750" height="500" controls> </video>
                                 </div>
                             </div>
+
+        
 							<HomeTab />
 							<div className="choses-info text-white">
                                 <Counter />

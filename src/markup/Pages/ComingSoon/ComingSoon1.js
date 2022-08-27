@@ -2,7 +2,7 @@ import React,{Fragment, useEffect, useRef, useState} from 'react';
 import {Link} from 'react-router-dom';
 import bnr from './../../../images/background/bg5.jpg';
 
-const ComingSoon1 = () => {
+const ComingSoon = () => {
 	const [timerDays, setTimerDays] = useState('00');	
 	const [timerHours, setTimerHours] = useState('00');	
 	const [timerMinutes, setTimerMinutes] = useState('00');	
@@ -97,7 +97,7 @@ const ComingSoon1 = () => {
 	
 }
 
-export default ComingSoon1; 
+export default ComingSoon; 
 
 
 

@@ -3011,6 +3011,7 @@ blockquote:before {
 }
 .header-nav .nav > li .sub-menu li a {
     color: #505050;
+    /* color: #ffffff; */
     display: block;
     font-size: 14px;
     padding: 8px 20px;
@@ -4357,7 +4358,7 @@ blockquote:before {
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #869791
+    background:orange
 }
 /* owl dots style */
 .owl-theme.dots-style-1 .owl-dots .owl-dot {

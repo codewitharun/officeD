@@ -1,32 +1,17 @@
 import React, { Component, useState,useRef } from 'react';
 // import { Link } from 'react-router-dom';
-import Header from './../Layout/Header1';
+import Header from '../Layout/Header';
 import Footer from './../Layout/Footer1';
 import emailjs from '@emailjs/browser';
 import bgimg from './../../images/background/bg2.jpg';
 const MySubComponent = (props) => {
-    const FORM_ENDPOINT = "";
-     const [submitted, setSubmitted] = useState(false);
-     const sendEmail = (e) => {
-        e.preventDefault();
     
-        emailjs.sendForm('service_w2fchrq', 'template_bdv6u3c', form.current, 'qBY98qPa2oOWOym-c')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-          e.target.reset()
-      };
-//   function handleSubmit(e){
-//     e.preventDefault
-//   }
-const form=useRef()
-    if (props.display) {
         return <div>
-    
+{/*     
               <form className="inquiry-form dzForm" onSubmit={sendEmail}
-      target="_blank" ref={form}>
+      target="_blank" ref={form}> */}
+                                        
+                                        {/* <form action="https://public.herotofu.com/v1/dcc37e90-250f-11ed-9dc3-136bfcd2b0ee" method="post" className='inquiry-form dzForm'>
                                         <div className="dzFormMsg"></div>
                                         <h3 className="box-title m-t0 m-b10">Let's grow your business <span className="bg-primary"></span></h3>
                                         <p>With our team, you will have a website that is state of the art and will serve all your needs for years to come.</p>
@@ -52,6 +37,8 @@ const form=useRef()
                                                     <div className="input-group">
                                                         <span className="input-group-addon"><i className="ti-email text-primary"></i></span>
                                                         <input  name="dzEmail" type="email" className="form-control" required placeholder="Your Email Id" />
+                                                        <label for="name"  >Your Name</label>
+    <input name="Name" id="name" type="text"  required className="form-control ti-user text-warning input-group-addon"/>
                                                     </div>
                                                 </div>
                                             </div>
@@ -82,10 +69,33 @@ const form=useRef()
                                               
                                             </div>
                                         </div>
-                                    </form>
+                                    </form> */}
+                                    <form action="https://public.herotofu.com/v1/dcc37e90-250f-11ed-9dc3-136bfcd2b0ee" method="post" className="inquiry-form dzForm" target='_blank'>
+ 
+                                    <div className="dzFormMsg"></div>
+                                        <h3 className="box-title m-t0 m-b10">Let's grow your business <span className="bg-primary"></span></h3>
+                                        <p>With our team, you will have a website that is state of the art and will serve all your needs for years to come.</p>
+                                        <div className="col-lg-12">
+                                        <div className="input-group">
+                                                       
+                                                        <label for="name"  >Your Name</label>
+    <input name="Name" id="name" type="text"  required className="form-control ti-user text-warning input-group-addon"/>
+                                                    </div>
+                                                    </div>
+
+                                                    <div className="col-lg-12">
+                                        <div className="input-group">
+    <label for="email">Your Email</label>
+    <input name="Email" id="email" type="email" required  className="form-control ti-user text-warning input-group-addon" />
+  </div>
+  </div>
+  <div className="col-lg-12">
+    <input type="submit" value=" Get A Free Quote!"  className="site-button button-lg" />
+  </div>
+</form>
         </div>
     }
-}
+
 
 class Contact extends Component {
 

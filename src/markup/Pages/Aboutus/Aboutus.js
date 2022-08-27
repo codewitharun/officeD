@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
-import Header from './../../Layout/Header1';
-import Footer from './../../Layout/Footer1';
-import PageTitle from './../../Layout/PageTitle';
-import SectionCounter from './../../Element/SectionCounter';
-import TestimonialCarousel from './../../Element/TestimonialCarousel';
-import FormStyle from './../../Element/FormStyle';
+import Header from '../../Layout/Header';
+import Footer from '../../Layout/Footer1';
+import PageTitle from '../../Layout/PageTitle';
+import SectionCounter from '../../Element/SectionCounter';
+import TestimonialCarousel from '../../Element/TestimonialCarousel';
+import FormStyle from '../../Element/FormStyle';
 
 //Images
 import  about9 from './../../../images/about/pic9.jpg';
@@ -16,7 +16,7 @@ import bg1 from './../../../images/background/bg1.jpg';
 
 import bnr from './../../../images/banner/bnr2.jpg';
 
-class Aboutus1 extends Component {
+class Aboutus extends Component {
     render() {
         return (
             <>
@@ -132,4 +132,4 @@ function VisionBlog(){
 }	
 
 export {VisionBlog};
-export default Aboutus1;
+export default Aboutus;
